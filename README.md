@@ -8,7 +8,8 @@
 - 👨‍💻 All of my projects and experiences are available at [https://mohamed-jabrane.com/](https://mohamed-jabrane.com/)
 
 -  👨‍💻 Example of deployed project created with angular/firebase/firestore [https://mhj-password-manager.web.app/](https://mhj-password-manager.web.app/) (test@gmail.com/123456 for demo)
--  👨‍💻 An other example [https://mhj-blog.web.app/login](https://mhj-blog.web.app/login) (test@gmail.com/123456 for demo) it's the admin part of Blog administration which create, update ,delete a blog content dynamically.
+-  👨‍💻 An other example [https://mhj-blog.web.app/login](https://mhj-blog.web.app/login) (test@gmail.com/123456 for demo).
+   It's the admin part of Blog administration which create, update ,delete a blog content dynamically.
 
 - 💬 Ask me about **Java, Spring,Scrum, Agility**
 
