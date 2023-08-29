@@ -7,6 +7,8 @@
 
 - 👨‍💻 All of my projects and experiences are available at [https://mohamed-jabrane.com/](https://mohamed-jabrane.com/)
 
+-  👨‍💻 Examples of deployed projects [https://mhj-password-manager.web.app/](https://mhj-password-manager.web.app/) (test@gmail.com/123456 for demo)
+
 - 💬 Ask me about **Java, Spring,Scrum, Agility**
 
 - 📫 How to reach me **jabranemohamed@gmail.com**
