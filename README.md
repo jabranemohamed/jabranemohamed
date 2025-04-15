@@ -3,15 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jabranemohamed&label=Profile%20views&color=0e75b6&style=flat" alt="jabranemohamed" /> </p>
 
-- 🌱 I’m currently learning **AWS**
-
-- 👨‍💻 All of my projects and experiences are available at [https://mohamed-jabrane.com/](https://mohamed-jabrane.com/)
-
--  👨‍💻 Example of deployed project created with angular/firebase/firestore [https://mhj-password-manager.web.app/](https://mhj-password-manager.web.app/) (test@gmail.com/123456 for demo)
--  👨‍💻 An other example [https://mhj-blog.web.app/login](https://mhj-blog.web.app/login) (test@gmail.com/123456 for demo).
--  It's the admin part of Blog administration which create, update ,delete a blog content dynamically.
-  
-   The content is then published on [https://mohamed-jabrane.web.app/](https://mohamed-jabrane.web.app/)
+- 🌱 I’m always learning 
 
 - 💬 Ask me about **Java, Spring,Scrum, Agility**
 
