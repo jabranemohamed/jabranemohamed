@@ -19,7 +19,7 @@
 ## 🚀 JVM & Performance
 
 ### 1. Optimisation du Garbage Collector
-- **[Comparaison G1GC vs ZGC vs Parallel GC](./jvm/gc-comparison.md)** - Analyse des différents collecteurs selon les cas d'usage
+- **[Comparaison G1GC vs ZGC vs Parallel GC](https://github.com/jabranemohamed/jvm/blob/main/gc-comparison.md)** - Analyse des différents collecteurs selon les cas d'usage
 - **[Tuning des paramètres GC pour réduire les pauses](./jvm/gc-tuning.md)** - Configuration optimale des flags JVM
 - **[Analyse des logs GC et métriques](./jvm/gc-analysis.md)** - Monitoring et interprétation des performances
 
