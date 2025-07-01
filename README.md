@@ -1,11 +1,9 @@
 <h1 align="center">Hi 👋, I'm JABRANE MOHAMED</h1>
-<h3 align="center">A passionate developer and Scrum Master</h3>
+<h3 align="center">A Senior Consultant</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jabranemohamed&label=Profile%20views&color=0e75b6&style=flat" alt="jabranemohamed" /> </p>
 
-- 🌱 I’m always learning 
-
-- 💬 Ask me about **Java, Spring,Scrum, Agility**
+- 💬 Ask me about **Java, Spring,Scrum, Agility,Performance**
 
 - 📫 How to reach me **jabranemohamed@gmail.com**
 
