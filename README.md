@@ -23,7 +23,7 @@
 
 ### 1. Garbage Collector Optimization
 - **[G1GC vs ZGC vs Parallel GC Comparison](https://github.com/jabranemohamed/jvm/blob/main/gc-comparison.md)** - Analysis of different collectors by use case
-- **[GC Parameter Tuning to Reduce Pauses](./jvm/gc_tunning.md)** - Optimal JVM flags configuration
+- **[GC Parameter Tuning to Reduce Pauses](https://github.com/jabranemohamed/jvm/blob/main/gc_tunning.md)** - Optimal JVM flags configuration
 - **[GC Logs Analysis and Metrics](./jvm/gc-analysis.md)** - Performance monitoring and interpretation
 
 ### 2. Memory Management & Memory Leaks
