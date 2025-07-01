@@ -14,108 +14,109 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=jabranemohamed&show_icons=true&locale=en" alt="jabranemohamed" /></p>
 
-# Guide de Performance JVM, Spring Boot & Angular
+
+
+
+# JVM, Spring Boot & Angular Performance Guide
 
 ## 🚀 JVM & Performance
 
-### 1. Optimisation du Garbage Collector
-- **[Comparaison G1GC vs ZGC vs Parallel GC](https://github.com/jabranemohamed/jvm/blob/main/gc-comparison.md)** - Analyse des différents collecteurs selon les cas d'usage
-- **[Tuning des paramètres GC pour réduire les pauses](./jvm/gc-tuning.md)** - Configuration optimale des flags JVM
-- **[Analyse des logs GC et métriques](./jvm/gc-analysis.md)** - Monitoring et interprétation des performances
+### 1. Garbage Collector Optimization
+- **[G1GC vs ZGC vs Parallel GC Comparison](https://github.com/jabranemohamed/jvm/blob/main/gc-comparison.md)** - Analysis of different collectors by use case
+- **[GC Parameter Tuning to Reduce Pauses](./jvm/gc-tuning.md)** - Optimal JVM flags configuration
+- **[GC Logs Analysis and Metrics](./jvm/gc-analysis.md)** - Performance monitoring and interpretation
 
 ### 2. Memory Management & Memory Leaks
-- **[Detection et résolution des fuites mémoire](./jvm/memory-leaks.md)** - Outils et techniques de diagnostic
-- **[Optimisation de l'utilisation heap/off-heap](./jvm/heap-optimization.md)** - Stratégies de répartition mémoire
-- **[Pool d'objets vs création d'instances](./jvm/object-pooling.md)** - Patterns de gestion d'objets optimisés
+- **[Memory Leak Detection and Resolution](./jvm/memory-leaks.md)** - Diagnostic tools and techniques
+- **[Heap/Off-heap Usage Optimization](./jvm/heap-optimization.md)** - Memory allocation strategies
+- **[Object Pooling vs Instance Creation](./jvm/object-pooling.md)** - Optimized object management patterns
 
 ### 3. JIT Compiler Optimizations
-- **[Méthodes hotspot et inlining](./jvm/jit-hotspot.md)** - Optimisations automatiques du compilateur
-- **[Profiling avec JProfiler/VisualVM](./jvm/profiling-tools.md)** - Analyse des performances applicatives
-- **[Optimisation des boucles critiques](./jvm/loop-optimization.md)** - Techniques d'amélioration du code métier
+- **[Hotspot Methods and Inlining](./jvm/jit-hotspot.md)** - Automatic compiler optimizations
+- **[Profiling with JProfiler/VisualVM](./jvm/profiling-tools.md)** - Application performance analysis
+- **[Critical Loop Optimization](./jvm/loop-optimization.md)** - Business code improvement techniques
 
 ## 🍃 Spring Boot Performance
 
-### 4. Optimisation du Démarrage d'Application
-- **[Lazy initialization et conditional beans](./spring-boot/lazy-initialization.md)** - Réduction du temps de démarrage
-- **[Réduction du classpath scanning](./spring-boot/classpath-optimization.md)** - Optimisation de la découverte de composants  
-- **[AOT compilation avec GraalVM](./spring-boot/graalvm-aot.md)** - Compilation ahead-of-time pour des performances native
+### 4. Application Startup Optimization
+- **[Lazy Initialization and Conditional Beans](./spring-boot/lazy-initialization.md)** - Startup time reduction
+- **[Classpath Scanning Reduction](./spring-boot/classpath-optimization.md)** - Component discovery optimization
+- **[AOT Compilation with GraalVM](./spring-boot/graalvm-aot.md)** - Ahead-of-time compilation for native performance
 
-### 5. Cache Strategy avec Spring Cache
-- **[Mise en place de cache multi-niveaux (L1/L2)](./spring-boot/cache-multi-tier.md)** - Architecture de cache distribuée
-- **[Eviction policies et TTL optimization](./spring-boot/cache-eviction.md)** - Stratégies d'expiration et de nettoyage
-- **[Cache-aside vs Write-through patterns](./spring-boot/cache-patterns.md)** - Patterns de consistance des données
+### 5. Cache Strategy with Spring Cache
+- **[Multi-tier Cache Setup (L1/L2)](./spring-boot/cache-multi-tier.md)** - Distributed cache architecture
+- **[Eviction Policies and TTL Optimization](./spring-boot/cache-eviction.md)** - Expiration and cleanup strategies
+- **[Cache-aside vs Write-through Patterns](./spring-boot/cache-patterns.md)** - Data consistency patterns
 
 ### 6. Database Access Optimization
-- **[N+1 queries avec @EntityGraph](./spring-boot/n-plus-one-queries.md)** - Résolution des problèmes de requêtes multiples
-- **[Batch processing et bulk operations](./spring-boot/batch-operations.md)** - Optimisation des opérations en lot
-- **[Pagination efficace avec Slice vs Page](./spring-boot/pagination-optimization.md)** - Techniques de pagination performantes
+- **[N+1 Queries with @EntityGraph](./spring-boot/n-plus-one-queries.md)** - Multiple queries problem resolution
+- **[Batch Processing and Bulk Operations](./spring-boot/batch-operations.md)** - Bulk operations optimization
+- **[Efficient Pagination with Slice vs Page](./spring-boot/pagination-optimization.md)** - High-performance pagination techniques
 
 ### 7. Reactive Programming Performance
-- **[WebFlux vs MVC dans différents scenarios](./spring-boot/webflux-vs-mvc.md)** - Choix architectural selon les besoins
-- **[Backpressure handling](./spring-boot/backpressure-handling.md)** - Gestion de la pression en programmation réactive
-- **[Optimisation des operators Reactor](./spring-boot/reactor-optimization.md)** - Utilisation efficace des opérateurs réactifs
+- **[WebFlux vs MVC in Different Scenarios](./spring-boot/webflux-vs-mvc.md)** - Architectural choices based on needs
+- **[Backpressure Handling](./spring-boot/backpressure-handling.md)** - Pressure management in reactive programming
+- **[Reactor Operators Optimization](./spring-boot/reactor-optimization.md)** - Efficient use of reactive operators
 
 ## 🅰️ Angular Performance
 
 ### 8. Bundle Size & Lazy Loading
-- **[Tree-shaking et dead code elimination](./angular/tree-shaking.md)** - Réduction de la taille des bundles
-- **[Module splitting stratégique](./angular/module-splitting.md)** - Architecture modulaire optimisée
-- **[Preloading strategies](./angular/preloading-strategies.md)** - Stratégies de préchargement intelligent
+- **[Tree-shaking and Dead Code Elimination](./angular/tree-shaking.md)** - Bundle size reduction
+- **[Strategic Module Splitting](./angular/module-splitting.md)** - Optimized modular architecture
+- **[Preloading Strategies](./angular/preloading-strategies.md)** - Smart preloading strategies
 
 ### 9. Change Detection Optimization
-- **[OnPush strategy et immutable data](./angular/onpush-strategy.md)** - Optimisation de la détection de changements
-- **[Async pipe vs manual subscription](./angular/async-pipe-optimization.md)** - Gestion efficace des observables
-- **[Zone.js alternatives](./angular/zonejs-alternatives.md)** - Alternatives modernes à Zone.js
+- **[OnPush Strategy and Immutable Data](./angular/onpush-strategy.md)** - Change detection optimization
+- **[Async Pipe vs Manual Subscription](./angular/async-pipe-optimization.md)** - Efficient observable management
+- **[Zone.js Alternatives](./angular/zonejs-alternatives.md)** - Modern alternatives to Zone.js
 
 ### 10. Rendering Performance
-- **[Virtual scrolling pour grandes listes](./angular/virtual-scrolling.md)** - Rendu optimisé de listes volumineuses
-- **[TrackBy functions optimization](./angular/trackby-optimization.md)** - Optimisation du suivi des éléments DOM
-- **[SSR vs CSR performance comparison](./angular/ssr-vs-csr.md)** - Comparaison des stratégies de rendu
+- **[Virtual Scrolling for Large Lists](./angular/virtual-scrolling.md)** - Optimized rendering for large datasets
+- **[TrackBy Functions Optimization](./angular/trackby-optimization.md)** - DOM element tracking optimization
+- **[SSR vs CSR Performance Comparison](./angular/ssr-vs-csr.md)** - Rendering strategy comparison
 
 ### 11. Network Optimization
-- **[HTTP interceptors pour caching](./angular/http-caching.md)** - Mise en cache des requêtes HTTP
-- **[Request batching et debouncing](./angular/request-optimization.md)** - Optimisation des appels réseau
-- **[Service Workers pour offline-first](./angular/service-workers.md)** - Stratégies hors-ligne performantes
+- **[HTTP Interceptors for Caching](./angular/http-caching.md)** - HTTP request caching
+- **[Request Batching and Debouncing](./angular/request-optimization.md)** - Network call optimization
+- **[Service Workers for Offline-first](./angular/service-workers.md)** - High-performance offline strategies
 
 ## 💧 HikariCP & Database Connections
 
 ### 12. Connection Pool Tuning
-- **[Sizing optimal du pool selon la charge](./hikaricp/pool-sizing.md)** - Dimensionnement adapté à la charge
-- **[Monitoring des métriques HikariCP](./hikaricp/monitoring-metrics.md)** - Surveillance des performances de connexion
-- **[Connection leaks detection](./hikaricp/leak-detection.md)** - Détection et résolution des fuites de connexions
+- **[Optimal Pool Sizing Based on Load](./hikaricp/pool-sizing.md)** - Load-adapted sizing
+- **[HikariCP Metrics Monitoring](./hikaricp/monitoring-metrics.md)** - Connection performance monitoring
+- **[Connection Leaks Detection](./hikaricp/leak-detection.md)** - Connection leak detection and resolution
 
 ### 13. Database Query Optimization
-- **[Prepared statements vs dynamic queries](./hikaricp/prepared-statements.md)** - Optimisation des requêtes SQL
-- **[Connection timeout vs query timeout](./hikaricp/timeout-configuration.md)** - Configuration des timeouts appropriés
-- **[Pool validation strategies](./hikaricp/validation-strategies.md)** - Stratégies de validation des connexions
+- **[Prepared Statements vs Dynamic Queries](./hikaricp/prepared-statements.md)** - SQL query optimization
+- **[Connection Timeout vs Query Timeout](./hikaricp/timeout-configuration.md)** - Appropriate timeout configuration
+- **[Pool Validation Strategies](./hikaricp/validation-strategies.md)** - Connection validation strategies
 
 ## 🔄 Architecture & Patterns
 
 ### 14. Microservices Communication
-- **[Circuit breaker patterns avec Resilience4j](./architecture/circuit-breaker.md)** - Patterns de résilience distribuée
-- **[Async messaging vs synchronous calls](./architecture/async-vs-sync.md)** - Choix de communication inter-services
-- **[Connection pooling entre services](./architecture/inter-service-pooling.md)** - Optimisation des connexions distribuées
+- **[Circuit Breaker Patterns with Resilience4j](./architecture/circuit-breaker.md)** - Distributed resilience patterns
+- **[Async Messaging vs Synchronous Calls](./architecture/async-vs-sync.md)** - Inter-service communication choices
+- **[Connection Pooling Between Services](./architecture/inter-service-pooling.md)** - Distributed connection optimization
 
-### 15. Caching Strategies Multi-Tier
-- **[Redis cluster vs single instance](./architecture/redis-clustering.md)** - Architecture de cache distribuée
-- **[CDN integration avec Angular](./architecture/cdn-integration.md)** - Intégration de réseaux de distribution
-- **[Database query cache tuning](./architecture/db-query-cache.md)** - Optimisation du cache de requêtes
+### 15. Multi-Tier Caching Strategies
+- **[Redis Cluster vs Single Instance](./architecture/redis-clustering.md)** - Distributed cache architecture
+- **[CDN Integration with Angular](./architecture/cdn-integration.md)** - Content delivery network integration
+- **[Database Query Cache Tuning](./architecture/db-query-cache.md)** - Query cache optimization
 
 ### 16. Monitoring & Observability
-- **[APM integration (Micrometer, Prometheus)](./architecture/apm-integration.md)** - Monitoring applicatif avancé
-- **[Custom metrics pour business logic](./architecture/custom-metrics.md)** - Métriques métier personnalisées
-- **[Performance regression detection](./architecture/regression-detection.md)** - Détection automatique de régressions
+- **[APM Integration (Micrometer, Prometheus)](./architecture/apm-integration.md)** - Advanced application monitoring
+- **[Custom Metrics for Business Logic](./architecture/custom-metrics.md)** - Custom business metrics
+- **[Performance Regression Detection](./architecture/regression-detection.md)** - Automated regression detection
 
 ## 🧪 Profiling & Testing
 
 ### 17. Load Testing & Benchmarking
-- **[JMH pour micro-benchmarks Java](./testing/jmh-benchmarks.md)** - Tests de performance unitaires
-- **[K6/Artillery pour tests de charge](./testing/load-testing.md)** - Tests de charge automatisés
-- **[Performance testing pipeline](./testing/performance-pipeline.md)** - Intégration continue des tests de performance
+- **[JMH for Java Micro-benchmarks](./testing/jmh-benchmarks.md)** - Unit performance testing
+- **[K6/Artillery for Load Testing](./testing/load-testing.md)** - Automated load testing
+- **[Performance Testing Pipeline](./testing/performance-pipeline.md)** - Continuous performance testing integration
 
 ### 18. Memory Profiling Deep Dive
-- **[Heap dumps analysis](./testing/heap-dumps.md)** - Analyse approfondie de la mémoire
-- **[Off-heap memory tracking](./testing/off-heap-tracking.md)** - Suivi de la mémoire hors-heap
-- **[Memory-mapped files optimization](./testing/memory-mapped-files.md)** - Optimisation des fichiers mappés en mémoire
-
-
+- **[Heap Dumps Analysis](./testing/heap-dumps.md)** - In-depth memory analysis
+- **[Off-heap Memory Tracking](./testing/off-heap-tracking.md)** - Off-heap memory monitoring
+- **[Memory-mapped Files Optimization](./testing/memory-mapped-files.md)** - Memory-mapped files optimization
