@@ -21,39 +21,48 @@
 
 ## 🚀 JVM & Performance
 
-### 1. Garbage Collector Optimization
+### Garbage Collector Optimization
 - **[G1GC vs ZGC vs Parallel GC Comparison](https://github.com/jabranemohamed/jvm/blob/main/gc-comparison.md)** - Analysis of different collectors by use case ✅ 
 - **[GC Parameter Tuning to Reduce Pauses](https://github.com/jabranemohamed/jvm/blob/main/gc_tunning.md)** - Optimal JVM flags configuration  ✅ 
 - **[GC Logs Analysis and Metrics](https://github.com/jabranemohamed/jvm/blob/main/gc_analysis.md)** - Performance monitoring and interpretation  ✅ 
 
-### 2. Memory Management & Memory Leaks
+### Memory Management & Memory Leaks
 - **[Memory Leak Detection and Resolution](./jvm/memory-leaks.md)** - Diagnostic tools and techniques  ⏳
 - **[Heap/Off-heap Usage Optimization](./jvm/heap-optimization.md)** - Memory allocation strategies    ⏳
 - **[Object Pooling vs Instance Creation](./jvm/object-pooling.md)** - Optimized object management patterns ⏳
 
-### 3. JIT Compiler Optimizations
-- **[Hotspot Methods and Inlining](./jvm/jit-hotspot.md)** - Automatic compiler optimizations  ⏳
-- **[Profiling with JProfiler/VisualVM](./jvm/profiling-tools.md)** - Application performance analysis ⏳
-- **[Critical Loop Optimization](./jvm/loop-optimization.md)** - Business code improvement techniques ⏳
+
+## 🧪 Profiling & Testing
+
+### Load Testing & Benchmarking
+- **[JMH for Java Micro-benchmarks](./testing/jmh-benchmarks.md)** - Unit performance testing ⏳
+- **[K6/Artillery for Load Testing](./testing/load-testing.md)** - Automated load testing ⏳
+- **[Performance Testing Pipeline](./testing/performance-pipeline.md)** - Continuous performance testing integration ⏳
+
+### Memory Profiling Deep Dive
+- **[Heap Dumps Analysis](./testing/heap-dumps.md)** - In-depth memory analysis ⏳
+- **[Off-heap Memory Tracking](./testing/off-heap-tracking.md)** - Off-heap memory monitoring ⏳
+- **[Memory-mapped Files Optimization](./testing/memory-mapped-files.md)** - Memory-mapped files optimization ⏳
+- 
 
 ## 🍃 Spring Boot Performance
 
-### 4. Application Startup Optimization
+### Application Startup Optimization
 - **[Lazy Initialization and Conditional Beans](./spring-boot/lazy-initialization.md)** - Startup time reduction  ⏳
 - **[Classpath Scanning Reduction](./spring-boot/classpath-optimization.md)** - Component discovery optimization  ⏳
 - **[AOT Compilation with GraalVM](./spring-boot/graalvm-aot.md)** - Ahead-of-time compilation for native performance  ⏳
 
-### 5. Cache Strategy with Spring Cache
+### Cache Strategy with Spring Cache
 - **[Multi-tier Cache Setup (L1/L2)](./spring-boot/cache-multi-tier.md)** - Distributed cache architecture  ⏳
 - **[Eviction Policies and TTL Optimization](./spring-boot/cache-eviction.md)** - Expiration and cleanup strategies  ⏳
 - **[Cache-aside vs Write-through Patterns](./spring-boot/cache-patterns.md)** - Data consistency patterns  ⏳
 
-### 6. Database Access Optimization
+### Database Access Optimization
 - **[N+1 Queries with @EntityGraph](./spring-boot/n-plus-one-queries.md)** - Multiple queries problem resolution  ⏳
 - **[Batch Processing and Bulk Operations](./spring-boot/batch-operations.md)** - Bulk operations optimization  ⏳
 - **[Efficient Pagination with Slice vs Page](./spring-boot/pagination-optimization.md)** - High-performance pagination techniques ⏳
 
-### 7. Reactive Programming Performance
+### Reactive Programming Performance
 - **[WebFlux vs MVC in Different Scenarios](./spring-boot/webflux-vs-mvc.md)** - Architectural choices based on needs ⏳
 - **[Backpressure Handling](./spring-boot/backpressure-handling.md)** - Pressure management in reactive programming  ⏳
 - **[Reactor Operators Optimization](./spring-boot/reactor-optimization.md)** - Efficient use of reactive operators ⏳
@@ -61,41 +70,30 @@
 
 ## 💧 HikariCP & Database Connections
 
-### 8. Connection Pool Tuning
+### Connection Pool Tuning
 - **[Optimal Pool Sizing Based on Load](./hikaricp/pool-sizing.md)** - Load-adapted sizing ⏳
 - **[HikariCP Metrics Monitoring](./hikaricp/monitoring-metrics.md)** - Connection performance monitoring ⏳
 - **[Connection Leaks Detection](./hikaricp/leak-detection.md)** - Connection leak detection and resolution ⏳
 
-### 9. Database Query Optimization
+### Database Query Optimization
 - **[Prepared Statements vs Dynamic Queries](./hikaricp/prepared-statements.md)** - SQL query optimization ⏳
 - **[Connection Timeout vs Query Timeout](./hikaricp/timeout-configuration.md)** - Appropriate timeout configuration ⏳
 - **[Pool Validation Strategies](./hikaricp/validation-strategies.md)** - Connection validation strategies
 
 ## 🔄 Architecture & Patterns
 
-### 10. Microservices Communication
+### Microservices Communication
 - **[Circuit Breaker Patterns with Resilience4j](./architecture/circuit-breaker.md)** - Distributed resilience patterns ⏳
 - **[Async Messaging vs Synchronous Calls](./architecture/async-vs-sync.md)** - Inter-service communication choices ⏳
 - **[Connection Pooling Between Services](./architecture/inter-service-pooling.md)** - Distributed connection optimization ⏳
 
-### 11. Multi-Tier Caching Strategies
+### Multi-Tier Caching Strategies
 - **[Redis Cluster vs Single Instance](./architecture/redis-clustering.md)** - Distributed cache architecture ⏳
 - **[CDN Integration with Angular](./architecture/cdn-integration.md)** - Content delivery network integration ⏳
 - **[Database Query Cache Tuning](./architecture/db-query-cache.md)** - Query cache optimization ⏳
 
-### 12. Monitoring & Observability
+### Monitoring & Observability
 - **[APM Integration (Micrometer, Prometheus)](./architecture/apm-integration.md)** - Advanced application monitoring ⏳
 - **[Custom Metrics for Business Logic](./architecture/custom-metrics.md)** - Custom business metrics ⏳
 - **[Performance Regression Detection](./architecture/regression-detection.md)** - Automated regression detection ⏳
 
-## 🧪 Profiling & Testing
-
-### 13. Load Testing & Benchmarking
-- **[JMH for Java Micro-benchmarks](./testing/jmh-benchmarks.md)** - Unit performance testing ⏳
-- **[K6/Artillery for Load Testing](./testing/load-testing.md)** - Automated load testing ⏳
-- **[Performance Testing Pipeline](./testing/performance-pipeline.md)** - Continuous performance testing integration ⏳
-
-### 14. Memory Profiling Deep Dive
-- **[Heap Dumps Analysis](./testing/heap-dumps.md)** - In-depth memory analysis ⏳
-- **[Off-heap Memory Tracking](./testing/off-heap-tracking.md)** - Off-heap memory monitoring ⏳
-- **[Memory-mapped Files Optimization](./testing/memory-mapped-files.md)** - Memory-mapped files optimization ⏳
