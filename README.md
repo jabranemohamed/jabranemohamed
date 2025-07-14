@@ -30,7 +30,7 @@
 
 ### Load Testing & Benchmarking
 - **[JMH for Java Micro-benchmarks](./testing/jmh-benchmarks.md)** - Unit performance testing ⏳
-- **[K6/Artillery for Load Testing](./testing/load-testing.md)** - Automated load testing ⏳
+- **[K6/Artillery for Load Testing](https://github.com/jabranemohamed/perf/blob/main/K6.md)** - Automated load testing ✅ 
 - **[Performance Testing Pipeline](./testing/performance-pipeline.md)** - Continuous performance testing integration ⏳
 
 ### Memory Profiling Deep Dive
