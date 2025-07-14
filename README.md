@@ -47,8 +47,8 @@
 
 ## 🍃 Spring Boot Performance
 
-### Application Startup Optimization
-- **[Lazy Initialization and Conditional Beans](./spring-boot/lazy-initialization.md)** - Startup time reduction  ⏳
+### Vuirtual Thread
+- **[Benchmarking usage Thread vs VirtualThread](https://github.com/jabranemohamed/report-service)** -  ✅ 
 - **[Classpath Scanning Reduction](./spring-boot/classpath-optimization.md)** - Component discovery optimization  ⏳
 - **[AOT Compilation with GraalVM](./spring-boot/graalvm-aot.md)** - Ahead-of-time compilation for native performance  ⏳
 
