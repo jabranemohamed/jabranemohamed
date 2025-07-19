@@ -31,7 +31,7 @@
 ### Load Testing & Benchmarking
 - **[JMH for Java Micro-benchmarks](./testing/jmh-benchmarks.md)** - Unit performance testing ⏳
 - **[K6/Artillery for Load Testing](https://github.com/jabranemohamed/perf/blob/main/K6.md)** - Automated load testing ✅ 
-- **[Performance Testing Pipeline](./testing/performance-pipeline.md)** - Integration K6 with Gitlab CI ⏳
+- **[Performance Testing Pipeline](https://github.com/jabranemohamed/jvm/blob/main/performance-pipeline.md)** - Integration K6 with Gitlab CI ✅
 
 ### Memory Profiling Deep Dive
 - **[Heap Dumps Analysis](./testing/heap-dumps.md)** - In-depth memory analysis ⏳
@@ -76,11 +76,6 @@
 
 ## 🔄 Architecture & Patterns
 
-### Microservices Communication
-- **[Circuit Breaker Patterns with Resilience4j](./architecture/circuit-breaker.md)** - Distributed resilience patterns ⏳
-- **[Async Messaging vs Synchronous Calls](./architecture/async-vs-sync.md)** - Inter-service communication choices ⏳
-- **[Connection Pooling Between Services](./architecture/inter-service-pooling.md)** - Distributed connection optimization ⏳
-
 ### Multi-Tier Caching Strategies
 - **[Redis Cluster vs Single Instance](./architecture/redis-clustering.md)** - Distributed cache architecture ⏳
 - **[CDN Integration with Angular](./architecture/cdn-integration.md)** - Content delivery network integration ⏳
@@ -88,6 +83,5 @@
 
 ### Monitoring & Observability
 - **[APM Integration (Micrometer, Prometheus)](./architecture/apm-integration.md)** - Advanced application monitoring ⏳
-- **[Custom Metrics for Business Logic](./architecture/custom-metrics.md)** - Custom business metrics ⏳
 - **[Performance Regression Detection](./architecture/regression-detection.md)** - Automated regression detection ⏳
 
