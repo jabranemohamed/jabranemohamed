@@ -43,8 +43,8 @@
 
 ### Vuirtual Thread
 - **[Benchmarking usage Thread vs VirtualThread](https://github.com/jabranemohamed/report-service)** -  ✅ 
-- **[Classpath Scanning Reduction](./spring-boot/classpath-optimization.md)** - Component discovery optimization  ⏳
-- **[AOT Compilation with GraalVM](./spring-boot/graalvm-aot.md)** - Ahead-of-time compilation for native performance  ⏳
+- **[Classpath Scanning Reduction](https://github.com/jabranemohamed/jvm/blob/main/Classpath_Scanning_Reduction.md)** - Component discovery optimization  ✅
+- **[AOT Compilation with GraalVM](https://github.com/jabranemohamed/jvm/blob/main/graalvm_aot_performance.md)** - Ahead-of-time compilation for native performance  ✅
 
 ### Cache Strategy with Spring Cache
 - **[Multi-tier Cache Setup (L1/L2)](./spring-boot/cache-multi-tier.md)** - Distributed cache architecture  ⏳
