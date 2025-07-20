@@ -65,7 +65,7 @@
 ## 💧 HikariCP & Database Connections
 
 ### Connection Pool Tuning
-- **[Optimal Pool Sizing Based on Load](./hikaricp/pool-sizing.md)** - Load-adapted sizing ⏳
+- **[Optimal Pool Sizing Based on Load](https://github.com/jabranemohamed/jvm/blob/main/hikaricp_optimal_pool_sizing.md)** - Load-adapted sizing ✅
 - **[HikariCP Metrics Monitoring](./hikaricp/monitoring-metrics.md)** - Connection performance monitoring ⏳
 - **[Connection Leaks Detection](./hikaricp/leak-detection.md)** - Connection leak detection and resolution ⏳
 
