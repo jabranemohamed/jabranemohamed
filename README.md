@@ -16,9 +16,9 @@
 ## 🚀 JVM & Performance
 
 ### Garbage Collector Optimization
-- **[G1GC vs ZGC vs Parallel GC Comparison](https://github.com/jabranemohamed/jvm/blob/main/gc-comparison.md)** - Analysis of different collectors by use case ✅ 
-- **[GC Parameter Tuning to Reduce Pauses](https://github.com/jabranemohamed/jvm/blob/main/gc_tunning.md)** - Optimal JVM flags configuration  ✅ 
-- **[GC Logs Analysis and Metrics](https://github.com/jabranemohamed/jvm/blob/main/gc_analysis.md)** - Performance monitoring and interpretation  ✅ 
+- **[G1GC vs ZGC vs Parallel GC Comparison](https://github.com/jabranemohamed/articles/blob/main/gc-comparison.md)** - Analysis of different collectors by use case ✅ 
+- **[GC Parameter Tuning to Reduce Pauses](https://github.com/jabranemohamed/articles/blob/main/gc_tunning.md)** - Optimal JVM flags configuration  ✅ 
+- **[GC Logs Analysis and Metrics](https://github.com/jabranemohamed/articles/blob/main/gc_analysis.md)** - Performance monitoring and interpretation  ✅ 
 
 ### Memory Management & Memory Leaks
 - **[Memory Leak Detection and Resolution](./jvm/memory-leaks.md)** - Diagnostic tools and techniques  ⏳
@@ -31,7 +31,7 @@
 ### Load Testing & Benchmarking
 - **[JMH for Java Micro-benchmarks](./testing/jmh-benchmarks.md)** - Unit performance testing ⏳
 - **[K6/Artillery for Load Testing](https://github.com/jabranemohamed/perf/blob/main/K6.md)** - Automated load testing ✅ 
-- **[Performance Testing Pipeline](https://github.com/jabranemohamed/jvm/blob/main/performance-pipeline.md)** - Integration K6 with Gitlab CI ✅
+- **[Performance Testing Pipeline](https://github.com/jabranemohamed/articles/blob/main/performance-pipeline.md)** - Integration K6 with Gitlab CI ✅
 
 ### Memory Profiling Deep Dive
 - **[Heap Dumps Analysis](./testing/heap-dumps.md)** - In-depth memory analysis ⏳
@@ -43,8 +43,8 @@
 
 ### Vuirtual Thread
 - **[Benchmarking usage Thread vs VirtualThread](https://github.com/jabranemohamed/report-service)** -  ✅ 
-- **[Classpath Scanning Reduction](https://github.com/jabranemohamed/jvm/blob/main/Classpath_Scanning_Reduction.md)** - Component discovery optimization  ✅
-- **[AOT Compilation with GraalVM](https://github.com/jabranemohamed/jvm/blob/main/graalvm_aot_performance.md)** - Ahead-of-time compilation for native performance  ✅
+- **[Classpath Scanning Reduction](https://github.com/jabranemohamed/articles/blob/main/Classpath_Scanning_Reduction.md)** - Component discovery optimization  ✅
+- **[AOT Compilation with GraalVM](https://github.com/jabranemohamed/articles/blob/main/graalvm_aot_performance.md)** - Ahead-of-time compilation for native performance  ✅
 
 ### Cache Strategy with Spring Cache
 - **[Multi-tier Cache Setup (L1/L2)](./spring-boot/cache-multi-tier.md)** - Distributed cache architecture  ⏳
@@ -65,7 +65,7 @@
 ## 💧 HikariCP & Database Connections
 
 ### Connection Pool Tuning
-- **[Optimal Pool Sizing Based on Load](https://github.com/jabranemohamed/jvm/blob/main/hikaricp_optimal_pool_sizing.md)** - Load-adapted sizing ✅
+- **[Optimal Pool Sizing Based on Load](https://github.com/jabranemohamed/articles/blob/main/hikaricp_optimal_pool_sizing.md)** - Load-adapted sizing ✅
 - **[HikariCP Metrics Monitoring](./hikaricp/monitoring-metrics.md)** - Connection performance monitoring ⏳
 - **[Connection Leaks Detection](./hikaricp/leak-detection.md)** - Connection leak detection and resolution ⏳
 
